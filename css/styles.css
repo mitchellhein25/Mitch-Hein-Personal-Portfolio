@@ -1,0 +1,192 @@
+html {
+    overflow-y: scroll;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headers-container {
+    padding-top: 3%;
+    border-bottom: 5px solid black;
+    padding-bottom: 3%;
+}
+
+.header, .sub-header {
+    text-align: center;
+}
+
+.sub-header {
+    font-size: 23px;
+}
+
+/*--------------------------------------- Nav Bar               ---------------------------------------*/
+nav {
+    background-color: white;
+    margin: 0;
+    overflow: hidden;
+    height: 100px;
+    box-shadow: 0 2px 20px 8px #999;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    line-height: 3em;
+    padding: 1em 3em;
+    text-decoration: none;
+    height: 100%;
+  }
+
+  nav ul li:first-child {
+    margin-right: auto;
+  }
+
+  nav ul li a:hover {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-logo {
+    position: absolute;
+    height: 100px;
+    top: 0;
+  }
+
+  .logo-link:hover {
+    background-color: white;
+  }
+
+/*---------------------------------------End Nav Bar               ---------------------------------------*/
+
+/*---------------------------------------Carousel               ---------------------------------------*/
+.carousel .carousel-item {
+    height: 80%;
+    width: 100%;
+}
+
+.carousel-content {
+    margin-top: 0;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+    margin: auto;
+}
+
+/*---------------------------------------End Carousel               ---------------------------------------*/
+
+
+.form-resume-container {
+    margin: 0;
+    border-top: 5px solid black; 
+    background-color: rgb(253, 249, 208);
+}
+
+.form-resume-row {
+    margin: auto;
+}
+
+
+/*---------------------------------------Form/Social              ---------------------------------------*/
+
+form {
+    margin-bottom: 5%;
+}
+
+.fa-github-square{
+    color: orange;
+    padding-left: 20px;
+}
+
+.social-row {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-fields {
+    width: 75%;
+    margin: auto;
+}
+
+legend {
+    text-align: center;
+}
+
+/*---------------------------------------End Form/Social          ---------------------------------------*/
+
+/*---------------------------------------Resume PDF               ---------------------------------------*/
+
+.resume-container {
+    padding: 5% 0;
+    margin: auto;
+}
+
+.resume-container object {
+    border: 2px solid black;
+}
+
+
+/*---------------------------------------End Resume PDF               ---------------------------------------*/
+
+/* ----------------------------------------------- Footer    ------------------------------------------------*/
+footer li {
+    color: black;
+    display: block;
+    line-height: 3em;
+    padding: 1em 3em;
+    text-decoration: none;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    border-top: 5px solid black; 
+    height: 100px;
+}
+
+.form-column { 
+    margin:auto;
+}
+
+footer {
+    max-height: 100px;
+}
+
+.click-me {
+    font-size: 20px;
+    color: dimgrey;
+}

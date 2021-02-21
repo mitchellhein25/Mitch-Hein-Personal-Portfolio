@@ -1,0 +1,133 @@
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Home</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- Icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/resume.css">
+<body>
+
+<!--------------------------------------- Nav Bar               --------------------------------------->
+<nav>
+  <ul>
+    <li>
+      <a class="logo-link" href="../index.html">
+        <img class="nav-logo" src="../static/images/small_headshot_cutout.jpg">
+      </a>
+    </li>
+    <li>
+      <a href="../index.html">Home</a>
+    </li>
+    <li>
+      <a href="resume.html">Resume</a>
+    </li>
+    <li>
+      <a href="projects.html">Projects</a>
+    </li>
+    <li>
+      <a href="social.html">Social</a>
+    </li>
+  </ul>
+</nav>
+<!--------------------------------------- End Nav Bar           --------------------------------------->
+
+<!--------------------------------------- Interactive Resume    --------------------------------------->
+<div class="headers-container">
+  <h1 class="header">Interactive Resume</h1>
+  <h2 class="sub-header">Click below to learn more about me!</h2>
+</div>
+
+<div class="interactive-resume-container">
+  <div id="obj-container">
+    <button class="resume-button" id="obj"><h2>CAREER OBJECTIVE<br><span class="click-me">Click Me!</span></h2></button>
+    <p id="obj-hidden" hidden>Goal-driven and ambitious individual that is seeking a career opportunity in software development. I am looking to push my boundaries and expand my knowledge while putting my motivation and drive to work.</p>
+  </div>
+  <div id="work-container">
+    <button class="resume-button" id="work"><h2>WORK EXPERIENCE<br><span class="click-me">Click Me!</span></h2></button>
+
+    <div id="work-hidden" hidden>
+      <h4>LISAM SYSTEMS, Bryan, TX</h4>
+      <h4 class="sub work-1">Product Analyst, July 2020 - Present</h4>
+      <ul id="work-1-bullets" hidden>
+        <li>∙ Work with export, transportation, and loading of client data, using Python and Excel primarily.</li>
+        <li>∙ Work with the company's  software ExEss, which is built with C#. Tasks include building custom fields in C#, as well as developing logic for those fields.</li>
+        <li>∙ Developed an extraction program that is used by the company to obtain client data from their PDF Safety Data Sheets, using Python (Including Regular Expressions and Pandas Dataframes).</li>
+      </ul>
+      <button class="btn btn-secondary" id="show-details-work-1"><p>Show details</p></button>
+    <h4>MEAL PREP SOLUTIONS LLC, College Station, TX</h4>
+    <h4 class="sub work-2">Owner, September 2019 - Present</h4>
+    <ul id="work-2-bullets" hidden>
+      <li>∙ Own, operate, and manage a meal preparation company that serves the Bryan/College Station area.</li>
+      <li>∙ Coordinate and direct all accounting, marketing, cooking, and networking for the growth and development of the company.</li>
+    </ul>
+    <button class="btn btn-secondary" id="show-details-work-2"><p>Show details</p></button>
+    <h4>CROSSFIT AGGIELAND, College Station, TX</h4>
+    <h4 class="sub work-3">Director of Programs/Head of Personal Training, January 2017 - Present</h4>
+    <ul id="work-3-bullets" hidden>
+      <li>∙ Coordinate all gym events and coaches training and development, as well as focus on new client acquisition and retention.</li>
+      <li>∙ Direct the gym towards further growth by implementing new ideas, seminars, and strategies tomaximize the members’ experience and continue to improve as a company.</li>
+    </ul>
+    <button class="btn btn-secondary" id="show-details-work-3"><p>Show details</p></button>   
+  </div>  
+</div>
+  <div id="edu-container">
+    <button class="resume-button" id="edu"><h2>EDUCATION<br><span class="click-me">Click Me!</span></h2></button>
+    <div id="edu-hidden" hidden>
+      <h4>OREGON STATE UNIVERSITY, Online Post Baccalaureate</h4>
+      <h4 class="sub edu-1">Bachelor’s of Science in Computer Science, May 2022</h4>
+      <ul id="edu-1-bullets">
+        <li>∙ GPA: 3.93</li>
+      </ul>
+      <h4>TEXAS A&M UNIVERSITY, College Station, TX</h4>
+      <h4 class="sub edu-2">Bachelor’s of Science in Applied Exercise Physiology, December 2017</h4>
+      <ul id="edu-2-bullets">
+        <li>∙ GPA: 4.0</li>
+        <li>∙ Graduated an Honor Undergraduate in 3.5 years.</li>
+      </ul>
+    </div>  
+  </div> 
+  <div id="skills-container"> 
+    <button class="resume-button" id="skills"><h2>TECHNICAL SKILLS<br><span class="click-me">Click Me!</span></h2></button>
+      <ul id="skills-hidden" hidden>
+        <li>∙ Data Science (Web Scraping, Excel, ETL)</li>
+        <li>∙ Java</li>
+        <li>∙ HTML & CSS</li>
+        <li>∙ Fundamentals of Javascript</li>
+        <li>∙ Python</li>
+        <li>∙ C#</li>
+      </ul>
+  </div>
+</div>
+<!--------------------------------------- End Interactive Resume--------------------------------------->
+
+<!--------------------------------------- Download PDF          --------------------------------------->
+
+<div class="download-container">
+    <a class="btn btn-primary download-btn" href="../static/Resume.pdf" download="Resume">Download Resume</a>
+</div>
+<!--------------------------------------- End Download PDF      --------------------------------------->
+
+ <!--------------------------------------- Footer                --------------------------------------->
+ <footer>
+  <div class="col-12 footer-container">
+    <ul>
+      <li>Mitchell Hein</li>
+      <li>Software Developer</li>
+      <li>Email: <a href="mailto:mitchelldalehein25@gmail.com">mitchelldalehein25@gmail.com</a></li>
+      <li>Phone: <a href="tel:214-208-5765">214-208-5765</a></li>
+      <li>Location: College Station, TX</li>
+    </ul> 
+  </div>
+</footer>
+<!--------------------------------------- End Footer           --------------------------------------->
+
+<script src="..\js\resume.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

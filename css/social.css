@@ -1,0 +1,20 @@
+.social-content {
+    min-height: 55%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color:rgb(253, 249, 208);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    flex-direction: row;
+    padding: 15px;
+}
+
+.fb-page {
+    padding-left: 7.5%;
+}

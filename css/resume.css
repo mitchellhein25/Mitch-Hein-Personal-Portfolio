@@ -1,0 +1,55 @@
+.interactive-resume-container {
+    background-color: rgb(253, 249, 208);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.download-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 249, 208);
+    padding-bottom: 3%;
+}
+
+
+.download-btn {
+    padding: 20px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+#obj-container, #work-container, #edu-container, #skills-container {
+    /* margin-top: 5%; */
+    text-align: center;
+}
+
+.resume-button {
+    width: 50%;    
+    background-color:lightblue;
+    border: 2px solid black;
+    margin: 1% 0;
+    padding: 10px;
+}
+
+.resume-button:hover {
+    background-color: rgb(0, 183, 255);
+}
+
+h2, p {
+    text-align: center;
+}
+
+.sub {
+    font-style: italic;
+    font-weight: 300;
+}
+
+li{
+    list-style-type: circle;
+}
+
+#show-details-work-1, #show-details-work-2, #show-details-work-3 {
+    padding: 5px;
+    height: 40px;
+}

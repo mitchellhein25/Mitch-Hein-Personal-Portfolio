@@ -1,0 +1,106 @@
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Home</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- Icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/projects.css">
+<body>
+
+  <!--------------------------------------- Nav Bar               --------------------------------------->
+  <nav>
+    <ul>
+      <li>
+        <a class="logo-link" href="../index.html">
+          <img class="nav-logo" src="../static/images/small_headshot_cutout.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="../index.html">Home</a>
+      </li>
+      <li>
+        <a href="resume.html">Resume</a>
+      </li>
+      <li>
+        <a href="projects.html">Projects</a>
+      </li>
+      <li>
+        <a href="social.html">Social</a>
+      </li>
+    </ul>
+  </nav>
+  <!--------------------------------------- End Nav Bar           --------------------------------------->
+
+  <div class="headers-container projects-headers">
+    <h1 class="header">Projects</h1>
+    <h2 class="sub-header">Below are links or descriptions to some of my latest projects I have worked on.</h2>
+  </div>
+
+  <div class="projects-content container-fluid">
+    <div class="row first-row">
+      <div class="col-6 text-center">
+        <a class="notary" href="https://github.com/mitchellhein25/M-GNotary-Website"><img src="https://gh-card.dev/repos/mitchellhein25/M-GNotary-Website.svg"></a>
+      </div>
+      <div class="col-6 text-center">
+        <a class="finance" href="https://github.com/mitchellhein25/django_finance_app"><img src="https://gh-card.dev/repos/mitchellhein25/django_finance_app.svg"></a>
+      </div>
+    </div>
+    <div class="row second-row">
+      <div class="col-6 text-center">
+        <button class="projects-button" id="scrapers"><h2>Web Scrapers<br><span class="click-me">Click Me!</span></h2></button>
+        <div id="scrape-hidden" hidden>
+          <h4 class="sub scrape">Data Scraping Tools Built With Python</h4>
+          <ul id="bullets">
+            <li>∙ Using Selenium and Beautiful Soup</li>
+            <li>∙ <b>Several Use Cases</b>
+              <ul>
+                <li class="indent">- Pulled substance data from various chemical data sites.</li>
+                <li class="indent">- Pulled a company admin password to be sent to the team daily at a specified time. This tool 
+                  logged in the user, scraped the site for the correct entry in the password table, and then sent it to our team 
+                  through Microsoft Teams.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6 text-center">
+        <button class="projects-button" id="extract"><h2>PDF Data Extraction Software<br><span class="click-me">Click Me!</span></h2></button>
+        <div id="extract-hidden" hidden>
+          <h4 class="sub extract">Software to Extract Chemical Data From Safety Data Sheets</h4>
+          <ul id="bullets">
+            <li>∙ Convert from PDF or Word Doc to Text</li>
+            <li>∙ Use Regular Expressions to extract the different sections and datapoints from the text.</li>
+            <li>∙ Use Pandas Dataframes to convert data and export as Excel sheet.</li>
+            <li>∙ Clean data for proper formatting to allow for importing into our software.</li>
+          </ul>
+      </div>
+      </div>
+  </div>
+  </div>
+
+
+ <!--------------------------------------- Footer                --------------------------------------->
+ <footer>
+  <div class="col-12 footer-container">
+    <ul>
+      <li>Mitchell Hein</li>
+      <li>Software Developer</li>
+      <li>Email: <a href="mailto:mitchelldalehein25@gmail.com">mitchelldalehein25@gmail.com</a></li>
+      <li>Phone: <a href="tel:214-208-5765">214-208-5765</a></li>
+      <li>Location: College Station, TX</li>
+    </ul> 
+  </div>
+</footer>
+<!--------------------------------------- End Footer           --------------------------------------->
+
+<script src="../js/projects.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
